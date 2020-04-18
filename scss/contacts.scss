@@ -1,0 +1,122 @@
+$gray: #acacad;
+
+.contacts__container {
+    width: 91.43%;
+    margin: 0 auto;
+}
+
+.contacts__title {
+    padding: 116px 0 57px 0;
+}
+
+.contacts__title__subtext {
+    font-size: 1.0625rem;
+    padding: 0 0 12px 1px;
+    color: $gray;
+    font-family: Arial;
+}
+
+.contacts__title__name {
+    font-size: 1.3125rem;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.contacts__form {
+    width: 68.45%;
+}
+
+.contacts__form__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.contacts__form__wrap__item {
+    width: 30.18%;
+    margin-bottom: 57px;
+    height: 51px;
+
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #dcdcdd;
+
+    font-size: 1.0625rem;
+    font-family: Arial;
+    padding-left: 5px;
+    &:focus {
+        border-bottom: 1px solid #14148f;
+        -webkit-box-shadow: 0 2px 8px -1px #14148f;
+                box-shadow: 0 2px 8px -1px #14148f;
+    }
+}
+
+.contacts__form__wrap__item[name="text"] {
+    resize: none;
+    width: 64.33%;
+}
+
+.contacts__form__item__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 705px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 122px;
+}
+
+.contacts__form__item__btn__button {
+    background: #034cd2;
+    border: none;
+    padding: 21px 93px;
+    border-radius: 70px;
+
+    color: #fff;
+    font-family: Arial;
+    font-size: 1.1rem;
+    outline: none;
+
+    cursor: pointer;
+    &:hover {
+        background: #033694;
+    }
+}
+
+.contacts__form__item__btn__text {
+    width: 44%;
+    color: $gray;
+    font-size: 0.875rem;
+    font-family: Arial;
+}
+
+@media screen and (max-width: 742px) {
+    .contacts__form__wrap__item {
+        width: 100%;
+    }
+    .contacts__form__wrap__item[name="text"] {
+        width: 100%;
+    }
+    .contacts__form__item__btn {
+        display: block;
+        width: 100%;    }
+    .contacts__form__item__btn__text {
+        padding-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .contacts__form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,89 @@
+.we-create {
+  background: url(../images/bg.jpg) no-repeat center top/cover; }
+
+.we-create-container {
+  width: 91.42%;
+  margin: 0 auto; }
+
+.we-create-container__title {
+  color: #fff;
+  font-size: 1rem;
+  padding: 122px 0 60px 0; }
+
+.we-create-container__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 108px;
+  position: relative; }
+
+.we-create-container__content__item {
+  width: 48.1%;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  position: relative; }
+  .we-create-container__content__item:first-child {
+    background-image: url(../images/logo-awake.png);
+    background-repeat: no-repeat;
+    background-position: 90% 70%; }
+
+.we-create-container__content__item__title {
+  padding: 25px 0 21px 10.1%; }
+
+.we-create-container__content__item__subtext {
+  font-family: Arial;
+  width: 44.33%;
+  padding: 0 0 165px 10.1%; }
+
+.we-create-container__content__item__more {
+  font-size: 0.875rem;
+  font-family: Arial;
+  color: #ababab;
+  cursor: pointer;
+  position: absolute;
+  left: 10.15%;
+  bottom: 29px; }
+  .we-create-container__content__item__more:hover {
+    color: #868585; }
+
+.we-create-container__content__logo {
+  position: absolute;
+  left: 48.75%;
+  top: 40%; }
+
+@media screen and (max-width: 1412px) {
+  .we-create-container__content__logo {
+    left: 48.5%; } }
+@media screen and (max-width: 1080px) {
+  .we-create-container__content__logo {
+    left: 48.2%; } }
+@media screen and (max-width: 946px) {
+  .we-create-container__content {
+    display: block; }
+
+  .we-create-container__content__item {
+    width: 95%;
+    margin: 15px auto; }
+
+  .we-create-container__content__logo {
+    display: none; } }
+@media screen and (max-width: 418px) {
+  .we-create-container__content__item__subtext {
+    width: 40%;
+    padding: 0 0 80px 10.1%; }
+
+  .we-create-container__content__item {
+    width: 98%; }
+    .we-create-container__content__item:first-child {
+      background-image: url(../images/logo-awake.png);
+      background-repeat: no-repeat;
+      background-position: 90% 70%;
+      background-size: 55% 55%; } }
+
+/*# sourceMappingURL=we-create.css.map */
